@@ -13,7 +13,7 @@ namespace Tyuiu.PrilukovDA.Sprint3.Task0.V28.Lib
                 result *= (Math.Pow(value, 3) * i + 2);
             }
 
-            return Math.Round(result);
+            return Math.Round(result, 3);
         }
     }
 }
